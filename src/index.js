@@ -34,6 +34,7 @@ countryListRef.style.listStyle = 'none';
 countryListRef.style.margin = '0';
 countryListRef.style.padding = '8px';
 
+
 function choseMarkup(countryArray) {
   if (countryArray.length === 1) {
     countryListRef.innerHTML = '';
